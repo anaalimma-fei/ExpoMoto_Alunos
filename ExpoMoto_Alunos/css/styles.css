@@ -126,5 +126,61 @@
     font-size: 2em;
   }
 
-  
+}
+
+.benefit .benefit-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 1em;
+}
+
+#benefit-1{
+  background-image: url(../img/hd1.jpg);
+}
+
+#benefit-2{
+  background-image: url(../img/hd2.jpg);
+}
+
+#benefit-3{
+  background-image: url(../img/hd3.jpg);
+}
+
+/* Event location */
+#location{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/hd1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
+  color: var(--text-color);
+  text-align: center;
+}
+
+#ddress{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+#address img{
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1em;
+}
+
+#address-details p{
+  margin-bottom: 0.5em;
+}
+
+#about-location h3{
+  color: var(--primary);
+  font-size: 1em;
+}
+
+#abou-location p{
+  line-height: 1.5em;
 }
