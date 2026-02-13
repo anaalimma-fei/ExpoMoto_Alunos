@@ -259,3 +259,38 @@
 #footer span{
   font-weight: bold;
 }
+
+/* Media Queries */
+@media (min-width: 768px) {
+  #event-subscription{
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  #disclaimer h2 {
+    font-size: 3em;
+  }
+
+  #disclaimer .about-event{
+    font-size: 2em;
+  }
+
+  .benefits{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .detail{
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .detail img{
+    width: 50%;
+  }
+
+  .detail-description{
+    width: 50%;
+  }
+}
